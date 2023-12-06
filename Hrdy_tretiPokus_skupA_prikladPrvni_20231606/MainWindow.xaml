@@ -15,7 +15,7 @@
         <TextBox x:Name="inputA" HorizontalAlignment="Left" Margin="151,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
         <TextBox x:Name="inputB" HorizontalAlignment="Left" Margin="151,187,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
         <TextBox x:Name="inputC" HorizontalAlignment="Left" Margin="151,239,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
-        <Button x:Name="CalculateClick" Content="POČÍTEJ!" HorizontalAlignment="Left" Height="51" Margin="77,312,0,0" VerticalAlignment="Top" Width="295" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="CalculateClick" Content="POČÍTEJ!" HorizontalAlignment="Left" Height="51" Margin="77,312,0,0" VerticalAlignment="Top" Width="295" FontSize="22" FontWeight="Bold" Click="CalculateClick_Click"/>
         <Label x:Name="Output" Content="Label" HorizontalAlignment="Left" Margin="432,135,0,0" VerticalAlignment="Top" Height="228" Width="320" Background="#FFABABAB"/>
 
     </Grid>
