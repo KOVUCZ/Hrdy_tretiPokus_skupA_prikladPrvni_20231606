@@ -1,0 +1,9 @@
+﻿<Application x:Class="Hrdy_tretiPokus_skupA_prikladPrvni_20231606.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Hrdy_tretiPokus_skupA_prikladPrvni_20231606"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
