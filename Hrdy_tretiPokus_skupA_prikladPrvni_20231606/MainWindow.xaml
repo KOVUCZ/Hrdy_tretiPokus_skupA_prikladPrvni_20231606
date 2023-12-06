@@ -7,14 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="    KALKULAČKA KVÁDRU MÍNUS VÁLCE?" HorizontalAlignment="Left" Height="56" Margin="77,38,0,0" VerticalAlignment="Top" Width="502" FontWeight="Bold" FontSize="24" Background="#FFBBBBBB"/>
-        <Image Margin="635,8,48,310" Source="/obr/MicrosoftTeams-image.png" Stretch="Fill"/>
-        <Label Content="A= " Margin="77,129,654,258" FontSize="24" FontWeight="Bold"/>
-        <Label Content="B= " Margin="77,181,654,206" FontSize="24" FontWeight="Bold"/>
-        <Label Content="C= " Margin="77,233,654,154" FontSize="24" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Margin="151,129,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
-        <TextBox HorizontalAlignment="Left" Margin="151,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
-        <TextBox HorizontalAlignment="Left" Margin="151,233,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <Label x:Name="ProjectNameLabel" Content="    KALKULAČKA KVÁDRU MÍNUS VÁLCE?" HorizontalAlignment="Left" Height="56" Margin="77,38,0,0" VerticalAlignment="Top" Width="502" FontWeight="Bold" FontSize="24" Background="#FFBBBBBB"/>
+        <Image x:Name="WhyAreWeStillHere_JustToSuffer" Margin="635,8,48,310" Source="/obr/MicrosoftTeams-image.png" Stretch="Fill"/>
+        <Label Content="A= " Margin="77,135,654,252" FontSize="24" FontWeight="Bold" Name="labelInputA"/>
+        <Label Content="B= " Margin="77,187,654,200" FontSize="24" FontWeight="Bold" Name="labelInputB"/>
+        <Label Content="C= " Margin="77,239,654,148" FontSize="24" FontWeight="Bold" Name="labelInputC"/>
+        <TextBox x:Name="inputA" HorizontalAlignment="Left" Margin="151,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox x:Name="inputB" HorizontalAlignment="Left" Margin="151,187,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox x:Name="inputC" HorizontalAlignment="Left" Margin="151,239,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <Button x:Name="CalculateClick" Content="POČÍTEJ!" HorizontalAlignment="Left" Height="51" Margin="77,312,0,0" VerticalAlignment="Top" Width="295" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="Output" Content="Label" HorizontalAlignment="Left" Margin="432,135,0,0" VerticalAlignment="Top" Height="228" Width="320" Background="#FFABABAB"/>
 
     </Grid>
 </Window>
