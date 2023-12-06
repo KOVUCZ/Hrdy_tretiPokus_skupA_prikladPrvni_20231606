@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="?" Height="480" Width="800">
     <Grid>
-        <Label x:Name="ProjectNameLabel" Content="    KALKULAČKA KVÁDRU MÍNUS VÁLCE?" HorizontalAlignment="Left" Height="56" Margin="77,38,0,0" VerticalAlignment="Top" Width="502" FontWeight="Bold" FontSize="24" Background="#FFBBBBBB"/>
-        <Image x:Name="WhyAreWeStillHere_JustToSuffer" Margin="635,8,48,310" Source="/obr/MicrosoftTeams-image.png" Stretch="Fill"/>
-        <Label Content="A= " Margin="77,135,654,282" FontSize="20" FontWeight="Bold" Name="labelInputA"/>
-        <Label Content="B= " Margin="77,209,654,209" FontSize="20" FontWeight="Bold" Name="labelInputB"/>
-        <Label Content="C= " Margin="77,277,654,141" FontSize="20" FontWeight="Bold" Name="labelInputC"/>
-        <TextBox x:Name="inputA" HorizontalAlignment="Left" Margin="151,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
-        <TextBox x:Name="inputB" HorizontalAlignment="Left" Margin="151,209,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="46"/>
-        <TextBox x:Name="inputC" HorizontalAlignment="Left" Margin="151,276,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <Label x:Name="ProjectNameLabel" Content="    KALKULAČKA KVÁDRU MÍNUS VÁLCE?" HorizontalAlignment="Left" Margin="77,38,0,0" Width="502" FontWeight="Bold" FontSize="24" Background="#FFBBBBBB" Height="56" VerticalAlignment="Top"/>
+        <Label Content="A= " Margin="77,135,654,0" FontSize="20" FontWeight="Bold" Name="labelInputA" Height="47" VerticalAlignment="Top"/>
+        <Label Content="B= " Margin="77,209,654,0" FontSize="20" FontWeight="Bold" Name="labelInputB" Height="46" VerticalAlignment="Top"/>
+        <Label Content="C= " Margin="77,277,654,0" FontSize="20" FontWeight="Bold" Name="labelInputC" Height="46" VerticalAlignment="Top"/>
+        <TextBox x:Name="inputA" HorizontalAlignment="Left" Margin="151,135,0,0" TextWrapping="Wrap" Text="TextBox" Width="221" Height="47" VerticalAlignment="Top"/>
+        <TextBox x:Name="inputB" HorizontalAlignment="Left" Margin="151,209,0,0" TextWrapping="Wrap" Text="TextBox" Width="221" Height="46" VerticalAlignment="Top"/>
+        <TextBox x:Name="inputC" HorizontalAlignment="Left" Margin="151,276,0,0" TextWrapping="Wrap" Text="TextBox" Width="221" Height="47" VerticalAlignment="Top"/>
         <Button x:Name="CalculateClick" Content="POČÍTEJ!" HorizontalAlignment="Left" Height="51" Margin="77,368,0,0" VerticalAlignment="Top" Width="295" FontSize="22" FontWeight="Bold" Click="CalculateClick_Click"/>
         <Label x:Name="Output" Content="Label" HorizontalAlignment="Left" Margin="432,135,0,0" VerticalAlignment="Top" Height="284" Width="320" Background="#FFABABAB"/>
+        <Image x:Name="WhyAreWeStillHere_JustToSuffer" Margin="635,8,48,334" Source="/obr/MicrosoftTeams-image.png" Stretch="Fill" Visibility="Visible"/>
 
     </Grid>
 </Window>

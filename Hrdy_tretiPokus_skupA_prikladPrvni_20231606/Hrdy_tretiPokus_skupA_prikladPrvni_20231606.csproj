@@ -7,4 +7,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="obr\MicrosoftTeams-image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obr\MicrosoftTeams-image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
