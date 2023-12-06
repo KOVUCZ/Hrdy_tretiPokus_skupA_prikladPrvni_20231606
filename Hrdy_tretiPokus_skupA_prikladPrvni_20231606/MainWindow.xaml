@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hrdy_tretiPokus_skupA_prikladPrvni_20231606"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="?" Height="450" Width="800">
     <Grid>
         <Label x:Name="ProjectNameLabel" Content="    KALKULAČKA KVÁDRU MÍNUS VÁLCE?" HorizontalAlignment="Left" Height="56" Margin="77,38,0,0" VerticalAlignment="Top" Width="502" FontWeight="Bold" FontSize="24" Background="#FFBBBBBB"/>
         <Image x:Name="WhyAreWeStillHere_JustToSuffer" Margin="635,8,48,310" Source="/obr/MicrosoftTeams-image.png" Stretch="Fill"/>
