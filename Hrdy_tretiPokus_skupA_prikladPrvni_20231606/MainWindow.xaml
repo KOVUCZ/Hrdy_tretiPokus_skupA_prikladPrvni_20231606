@@ -9,7 +9,12 @@
     <Grid>
         <Label Content="    KALKULAČKA KVÁDRU MÍNUS VÁLCE?" HorizontalAlignment="Left" Height="56" Margin="77,38,0,0" VerticalAlignment="Top" Width="502" FontWeight="Bold" FontSize="24" Background="#FFBBBBBB"/>
         <Image Margin="635,8,48,310" Source="/obr/MicrosoftTeams-image.png" Stretch="Fill"/>
-        <Label Content="A= " Margin="77,146,654,241" FontSize="24" FontWeight="Bold"/>
+        <Label Content="A= " Margin="77,129,654,258" FontSize="24" FontWeight="Bold"/>
+        <Label Content="B= " Margin="77,181,654,206" FontSize="24" FontWeight="Bold"/>
+        <Label Content="C= " Margin="77,233,654,154" FontSize="24" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="151,129,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox HorizontalAlignment="Left" Margin="151,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox HorizontalAlignment="Left" Margin="151,233,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="221" Height="47"/>
 
     </Grid>
 </Window>
